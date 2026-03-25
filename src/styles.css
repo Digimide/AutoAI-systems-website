@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  } a
+}
+
+.reveal {
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mtn-gradient {
+  background: linear-gradient(135deg, #FFCC00 0%, #E6B800 100%);
+}
+
+.dark-gradient {
+  background: linear-gradient(135deg, #0F172A 0%, #000000 100%);
+}
